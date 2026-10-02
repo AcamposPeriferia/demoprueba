@@ -1,0 +1,727 @@
+<mxfile host="app.diagrams.net" pages="7">
+  <diagram name="00-Contexto General" id="T7uEhc693y8LWLiSlIJK">
+    <mxGraphModel dx="1160" dy="638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EDD779;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate4.actor;" value="Cliente" vertex="1">
+          <mxGeometry height="50" width="26.5" x="264" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="VantiListo&amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;lt;FrontEnd&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="240" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="API Management&amp;nbsp;&lt;div&gt;&amp;lt;Público&amp;gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="VantiListo&lt;div&gt;&amp;lt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BackEnd&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="240" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="API Management&amp;nbsp;&lt;div&gt;&amp;lt;Privado&amp;gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="240" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-7" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="Credit Risk &amp;lt;SaaS&amp;gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="495.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-8" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="OnBoarding Digital&lt;div&gt;&amp;lt;Biometría Facil&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="496" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-9" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="&lt;div&gt;Mambu&lt;/div&gt;&lt;div&gt;&amp;lt;Core de crédito&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="496" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-10" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="SAP&amp;nbsp;&lt;div&gt;&amp;lt;ERP&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="495.5" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-11" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#B0D0D9;shape=mxgraph.archimate4.element;appType=comp;archiType=square;archiDomain=application;" value="Notificaciones&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="150" x="495.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-12" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-2" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="770" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-13" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-3" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="270" as="sourcePoint" />
+            <mxPoint x="770" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-14" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-4" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="270" as="sourcePoint" />
+            <mxPoint x="770" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-15" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-5" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="520" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Digital Request&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="325" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Channel APIs&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="324" y="253" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Private Services Request&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="179" x="322" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-20" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="460" />
+            </Array>
+            <mxPoint x="610" y="470" as="sourcePoint" />
+            <mxPoint x="770" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-21" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-8" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="510" />
+            </Array>
+            <mxPoint x="610" y="470" as="sourcePoint" />
+            <mxPoint x="770" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-22" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="562" />
+            </Array>
+            <mxPoint x="315" y="392" as="sourcePoint" />
+            <mxPoint x="770" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Credit Risk Evaluation&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="179" x="319" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Identity / Biometric Validation&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="179" x="318" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Lending Operation&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="179" x="319" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Enterprises / Financial Operation&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="202" x="319" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;font&gt;&lt;b&gt;Flow: Notification Request&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="167" x="317" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-28" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="620" />
+            </Array>
+            <mxPoint x="330" y="480" as="sourcePoint" />
+            <mxPoint x="511" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjJ-qr0aBGQwRy8olw7-29" edge="1" parent="1" source="6kjJ-qr0aBGQwRy8olw7-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="6kjJ-qr0aBGQwRy8olw7-11" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="680" />
+            </Array>
+            <mxPoint x="350" y="610" as="sourcePoint" />
+            <mxPoint x="531" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ol80kVJC8EF0s7FjA22w" name="01- Mapa de Dominio BIAN">
+    <mxGraphModel dx="994" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p01-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=18;fontColor=#333333;fontStyle=1;" value="Mapa de Dominio BIAN - alineado al programa R1-R4" vertex="1">
+          <mxGeometry height="34" width="1100" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=11.5;fontColor=#666666;" value="Capacidades de negocio por Service Domain BIAN, etiquetadas por release. Basado en Evaluacion_Arquitectura_CoreBanking_R1-R4.md, seccion 2." vertex="1">
+          <mxGeometry height="26" width="1200" x="40" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Customer / Identity&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom1-cap1" parent="p01-dom1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Party Authentication&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;Cliente Gas (R1) / extendido a No Gas (R4)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom1-cap2" parent="p01-dom1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Customer Product &amp; Service Eligibility&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom1-cap3" parent="p01-dom1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Customer Offer&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;nuevos tipos de producto en R2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Credit Risk &amp; Decisioning&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom2-cap1" parent="p01-dom2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Customer Credit Rating&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom2-cap2" parent="p01-dom2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Underwriting&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;reglas extendidas para RPO en R2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom2-cap3" parent="p01-dom2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Credit Risk Models&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;nueva metodologia de riesgo financiero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Financing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="760" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom3-cap1" parent="p01-dom3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Customer Loan&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;originacion Gas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom3-cap2" parent="p01-dom3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Credit Management&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;migracion de producto RPO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom3-cap3" parent="p01-dom3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Credit Facility&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;migracion de stock activo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom4" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Fraud Prevention &amp; Riesgo Ampliado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="1120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom4-cap1" parent="p01-dom4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Fraud Evaluation&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;nuevo, antifraude No Gas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom4-cap2" parent="p01-dom4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Fraud Resolution&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom4-cap3" parent="p01-dom4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Fraud Diagnosis&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Enterprise Support / Cartera&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="1480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom5-cap1" parent="p01-dom5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Delinquent Account Handling&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;evento minimo R1, pleno R4 (edad de cartera)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom5-cap2" parent="p01-dom5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Account Reconciliation&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;evento minimo R1, critico en R3 (migracion)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom5-cap3" parent="p01-dom5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Financial Accounting&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;via interfaz SAP, continuidad en R3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Vanti Domain:&lt;/div&gt;&lt;div&gt;Cartera, Cobranza &amp; Reporteria&lt;/div&gt;" vertex="1">
+          <mxGeometry height="470" width="330" x="1840" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom6-cap1" parent="p01-dom6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Consumer Loan Servicing&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;mora/intereses: evento R1, pleno R3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom6-cap2" parent="p01-dom6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Customer Case Management&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;vista 360 cartera&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-dom6-cap3" parent="p01-dom6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate4.element;appType=passive;archiType=square;archiDomain=business;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Capability&gt;&gt;&lt;div&gt;Business Reporting / Analytics&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;reporteria y cumplimiento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="20" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-note-transv" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#5E35B1;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Habilitadores transversales (construir una vez, reutilizar en R1-R4):&lt;/b&gt;&lt;br&gt;Motor de riesgo/decision extensible por metodologia · Motor de originacion generico y parametrizable · Contrato de datos &quot;marca de origen&quot; en Cerebro de Cartera · Pipeline de eventos a Data Lake · IAM / Directorio Activo." vertex="1">
+          <mxGeometry height="110" width="2130" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;fontSize=11.5;" value="&lt;b&gt;Convencion de Releases (programa R1-R4)&lt;/b&gt;&lt;div style=&quot;margin-top:6px;&quot;&gt;&lt;span style=&quot;color:#2E7D32;font-weight:bold;&quot;&gt;■ R1 · Q4-2026&lt;/span&gt; - Core Banking clientes Gas, minimo impacto a SAP&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#B8860B;font-weight:bold;&quot;&gt;■ R2 · Q1-2027&lt;/span&gt; - Migracion de producto RPO (SAP -&gt; Core)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#1565C0;font-weight:bold;&quot;&gt;■ R3 · Q2-2027&lt;/span&gt; - Migracion de stock de creditos activos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#DA532C;font-weight:bold;&quot;&gt;■ R4 · Q3-2027&lt;/span&gt; - Financiacion No Gas + nueva metodologia de riesgo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#5E35B1;font-weight:bold;&quot;&gt;■ Transversal&lt;/span&gt; - Habilitador construido una vez, reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="40" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="p01-source" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Nota de lectura&lt;/b&gt;&lt;br&gt;R1E = capacidad activa solo en modo evento/sincronizacion minima durante R1 (no administracion plena).&lt;br&gt;La administracion plena de cartera y riesgo se alcanza progresivamente en R3 (migracion de stock) y R4 (nueva metodologia, No Gas).&lt;br&gt;Fuente: Evaluacion_Arquitectura_CoreBanking_R1-R4.md, seccion 2 (Capacidades de Negocio BIAN)." vertex="1">
+          <mxGeometry height="150" width="1730" x="440" y="770" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CHuUJbrnBNVVtCWvhdqb" name="02-Application Landscape ">
+    <mxGraphModel dx="2191" dy="941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p02-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=18;fontColor=#333333;fontStyle=1;" value="Application Landscape - alineado al programa R1-R4" vertex="1">
+          <mxGeometry height="34" width="1100" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=11.5;fontColor=#666666;" value="Componentes de aplicacion agrupados por capa, etiquetados por release. Basado en Evaluacion_Arquitectura_CoreBanking_R1-R4.md, secciones 4 y 5." vertex="1">
+          <mxGeometry height="26" width="1200" x="40" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Digital Experience&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g1-c1" parent="p02-g1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Vanti Listo (Front/Back)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;enrutador Gas/No Gas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g1-c2" parent="p02-g1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Mi Vanti en Linea (Vista Asesor)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;confirmado en alcance R1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g1-c3" parent="p02-g1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Portal de Pago No Gas&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;canal de recaudo propio, nuevo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g1-c4" parent="p02-g1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Onboarding digital ampliado&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;para producto RPO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Access &amp; Exposure&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="368" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g2-c1" parent="p02-g2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;API Management Publico&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g2-c2" parent="p02-g2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;API Management Privado&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g2-c3" parent="p02-g2" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Orquestacion de integracion&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Channel Application&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="696" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g3-c1" parent="p02-g3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Motor de originacion generico&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;parametrizable por producto/segmento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g3-c2" parent="p02-g3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Modulo de Liquidaciones (aliados)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;= riesgo &#39;liquidacion de aliados&#39; del registro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g3-c3" parent="p02-g3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Motor de Riesgo / Decision&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;extensible; nueva metodologia en R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g4" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Private Integration&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="1024" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g4-c1" parent="p02-g4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz Core -&gt; SAP&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;cargos periodicos; bloqueada por FICA vs SD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g4-c2" parent="p02-g4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz SAP -&gt; Core&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;recaudo / compensacion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g4-c3" parent="p02-g4" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz de migracion (ETL)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;carga de stock activo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Domain Platforms &amp; External&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="1352" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g5-c1" parent="p02-g5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;SAP (SD / IS-U / FI-CA)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;minimo impacto; permanece en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g5-c2" parent="p02-g5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Cerebro de Cartera&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;recibe eventos R1; marca de origen&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g5-c3" parent="p02-g5" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Notificaciones&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=54;fillColor=#6666FF;strokeColor=#444444;strokeWidth=2;fontSize=13;" value="&lt;&lt;Grouping&gt;&gt;&lt;div&gt;Ecosistema Vanti&lt;/div&gt;" vertex="1">
+          <mxGeometry height="590" width="300" x="1680" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g6-c1" parent="p02-g6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Directorio Activo (IAM)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;matriz de accesos, Go de Ciberseguridad&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g6-c2" parent="p02-g6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Data Lake / Data Warehouse&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;eventos financiaciones y cartera desde R1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-g6-c3" parent="p02-g6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Vanti Max / Marketplace / Carvajal&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;ampliacion de ecosistema, no priorizado aun&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="264" x="18" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDECE7;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Hallazgo de auditoria:&lt;/b&gt; el Modulo de Liquidaciones de R1 corresponde al riesgo &quot;liquidacion de aliados&quot; identificado previamente como frente nuevo y no cotizado. Formalizar cobertura contractual con Sofka antes de construir." vertex="1">
+          <mxGeometry height="110" width="1940" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;fontSize=11.5;" value="&lt;b&gt;Convencion de Releases (programa R1-R4)&lt;/b&gt;&lt;div style=&quot;margin-top:6px;&quot;&gt;&lt;span style=&quot;color:#2E7D32;font-weight:bold;&quot;&gt;■ R1 · Q4-2026&lt;/span&gt; - Core Banking clientes Gas, minimo impacto a SAP&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#B8860B;font-weight:bold;&quot;&gt;■ R2 · Q1-2027&lt;/span&gt; - Migracion de producto RPO (SAP -&gt; Core)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#1565C0;font-weight:bold;&quot;&gt;■ R3 · Q2-2027&lt;/span&gt; - Migracion de stock de creditos activos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#DA532C;font-weight:bold;&quot;&gt;■ R4 · Q3-2027&lt;/span&gt; - Financiacion No Gas + nueva metodologia de riesgo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#5E35B1;font-weight:bold;&quot;&gt;■ Transversal&lt;/span&gt; - Habilitador construido una vez, reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="40" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="p02-source" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Nota de lectura&lt;/b&gt;&lt;br&gt;Los habilitadores marcados &quot;Transversal&quot; se construyen una sola vez y se reutilizan en R1-R4 (seccion 4 del informe).&lt;br&gt;SAP permanece como sistema de facturacion, recaudo y contabilidad agregada en las 4 releases; nunca administra logica de credito.&lt;br&gt;Fuente: Evaluacion_Arquitectura_CoreBanking_R1-R4.md, secciones 4 y 5." vertex="1">
+          <mxGeometry height="150" width="1540" x="440" y="890" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GN9gCs3q6IkGYBr3_ZI6" name="03- Arquitectura de Integración ">
+    <mxGraphModel dx="574" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p03-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=16;fontColor=#333333;fontStyle=1;" value="Arquitectura de Integracion - capas logicas del programa R1-R4" vertex="1">
+          <mxGeometry height="30" width="1000" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=11;fontColor=#666666;" value="Vista por capas con etiqueta de release (R1 Gas / R2 migracion RPO / R3 migracion de stock / R4 No Gas). Fuente: Evaluacion_Arquitectura_CoreBanking_R1-R4.md." vertex="1">
+          <mxGeometry height="24" width="1150" x="40" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 1 Canales y Experiencia" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 2 Servicios Transversales" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 3 Core Banking (Mambu)" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 4 Integracion SAP" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 5 Data, Conciliacion y Reporteria" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-l6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003D5C;strokeColor=#003D5C;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=left;spacingLeft=12;verticalAlign=middle;" value="CAPA 6 Seguridad y Operacion" vertex="1">
+          <mxGeometry height="26" width="195" x="40" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c11" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Vanti Listo&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;originador y enrutador Gas/No Gas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c12" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Mi Vanti en Linea (Vista Asesor)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;confirmado en R1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c13" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Onboarding digital ampliado&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;para producto RPO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c14" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Canales de recaudo Gas (via SAP)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;factura de gas existente&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c15" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Portal de Pago No Gas&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;canal propio, nuevo desarrollo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1020" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c21" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Motor de Riesgo / Decision&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;extensible; nueva metodologia en R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c22" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Identidad / Biometria&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c23" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;OTP / Firma Electronica&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c24" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Orquestacion de Integracion&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;API Mgmt Publico/Privado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c25" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Notificaciones&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1020" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c31" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Motor de originacion generico&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;parametrizable por producto/segmento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c32" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Originacion y ciclo de vida - Gas&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;Customer Loan / Credit Mgmt&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c33" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Modulo de Liquidaciones (aliados)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;= riesgo &#39;liquidacion de aliados&#39;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c34" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Migracion de producto RPO&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;SAP -&gt; Core&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c35" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Migracion de stock activo&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;creditos existentes SAP -&gt; Core&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1020" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c36" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#DA532C;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Originacion No Gas + riesgo nuevo&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#DA532C;margin-top:2px;&quot;&gt;R4 · Q3-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;nueva metodologia de riesgo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c41" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz Core -&gt; SAP (cargos periodicos)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;cuota/concepto/capital/interes/saldo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c42" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz SAP -&gt; Core (recaudo, compensacion)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;control de duplicados y reprocesos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c43" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;BPA SAP (SD / IS-U)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;RIESGO: FICA vs SD sin cerrar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c44" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Interfaz de migracion (ETL)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;carga masiva de stock activo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c45" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;FI / FI-CA Contabilidad Agregada&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;minimo impacto; continuidad en R3-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1020" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c51" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Data Lake / Data Warehouse&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;eventos financiaciones y cartera desde R1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c52" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Contrato &#39;marca de origen&#39; Cerebro Cartera&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;evento minimo R1, critico en R3-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c53" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Conciliacion Core-SAP-Recaudo&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;basica en R1, critica en R3 (migracion)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c54" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Reporteria Parametrizable&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;vista 360 cartera y cumplimiento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c61" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;IAM / Directorio Activo&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;prerequisito matriz de accesos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="260" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c62" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Matriz de Accesos&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;hito de ruta critica&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="450" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c63" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Auditoria / Logs&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="640" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c64" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Monitoreo / Continuidad / Backups&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="830" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-c65" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#5E35B1;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Go de Ciberseguridad (Pentesting)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#5E35B1;margin-top:2px;&quot;&gt;Habilitador transversal&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;compuerta repetible antes de cada release&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="175" x="1020" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-a1" edge="1" parent="1" source="p03-c11" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" target="p03-c21" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-a2" edge="1" parent="1" source="p03-c21" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" target="p03-c32" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-a3" edge="1" parent="1" source="p03-c32" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" target="p03-c41" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-a4" edge="1" parent="1" source="p03-c41" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" target="p03-c51" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-a5" edge="1" parent="1" source="p03-c42" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" target="p03-c32" value="respuesta recaudo">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-risk1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Camino critico #1:&lt;/b&gt;&lt;br&gt;FICA vs SD, rol Ayesa/NTT y uso de BPA aun sin cerrar con SAP.&lt;br&gt;Bloquea toda interfaz Core-SAP en las 4 releases (no solo R1)." vertex="1">
+          <mxGeometry height="130" width="380" x="1430" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-risk2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Camino critico #2:&lt;/b&gt;&lt;br&gt;Liquidacion de aliados (Modulo de Liquidaciones, R1) fue identificada previamente como frente &quot;no cotizado&quot;.&lt;br&gt;Formalizar cobertura contractual con Sofka antes de construir." vertex="1">
+          <mxGeometry height="130" width="380" x="1430" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-risk3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Camino critico #3:&lt;/b&gt;&lt;br&gt;Contrato de datos &quot;marca de origen&quot; en Cerebro de Cartera debe cerrarse en R1: sin el, R3 (migracion) y R4 (edad de cartera) no tienen base." vertex="1">
+          <mxGeometry height="130" width="380" x="1430" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;fontSize=11.5;" value="&lt;b&gt;Convencion de Releases (programa R1-R4)&lt;/b&gt;&lt;div style=&quot;margin-top:6px;&quot;&gt;&lt;span style=&quot;color:#2E7D32;font-weight:bold;&quot;&gt;■ R1 · Q4-2026&lt;/span&gt; - Core Banking clientes Gas, minimo impacto a SAP&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#B8860B;font-weight:bold;&quot;&gt;■ R2 · Q1-2027&lt;/span&gt; - Migracion de producto RPO (SAP -&gt; Core)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#1565C0;font-weight:bold;&quot;&gt;■ R3 · Q2-2027&lt;/span&gt; - Migracion de stock de creditos activos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#DA532C;font-weight:bold;&quot;&gt;■ R4 · Q3-2027&lt;/span&gt; - Financiacion No Gas + nueva metodologia de riesgo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#5E35B1;font-weight:bold;&quot;&gt;■ Transversal&lt;/span&gt; - Habilitador construido una vez, reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="40" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="p03-notes" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Notas&lt;/b&gt;&lt;br&gt;- Vista actualizada al alcance formal de 4 releases (R1-R4) recibido el 24-ago-2026; reemplaza el modelo de 3 releases usado en la version anterior de este diagrama.&lt;br&gt;- Los componentes marcados &quot;Habilitador transversal&quot; se construyen una sola vez en R1 y se reutilizan en R2-R4.&lt;br&gt;- R1E = capacidad activa solo como evento/sincronizacion minima durante R1, sin administracion plena.&lt;br&gt;- Pendiente de validar con Sofka, Mambu y consultoria SAP antes de convertir esta vista en especificacion tecnica." vertex="1">
+          <mxGeometry height="150" width="1250" x="460" y="1000" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2vcqvxB_DI7C5mn2VUWD" name="04 - Flujo de originación">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p04-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=16;fontColor=#333333;fontStyle=1;" value="Flujos de negocio por release (R1-R4)" vertex="1">
+          <mxGeometry height="30" width="1100" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=11;fontColor=#666666;" value="Cuatro vectores de trabajo con logica de negocio distinta. No son secuenciales entre si salvo donde se indica dependencia." vertex="1">
+          <mxGeometry height="22" width="1200" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=2;dashed=0;" value="" vertex="1">
+          <mxGeometry height="118" width="1650" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;valign=middle;" value="R1 · Q4-2026&lt;br&gt;Gas" vertex="1">
+          <mxGeometry height="34" width="230" x="55" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="Vanti Listo origina credito Gas" vertex="1">
+          <mxGeometry height="80" width="205" x="320" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-a1" edge="1" parent="1" source="p04-r1-s1" target="p04-r1-s2" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#2E7D32;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="Core crea y administra credito" vertex="1">
+          <mxGeometry height="80" width="205" x="541" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-a2" edge="1" parent="1" source="p04-r1-s2" target="p04-r1-s3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#2E7D32;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="Modulo Liquidaciones (aliados)" vertex="1">
+          <mxGeometry height="80" width="205" x="762" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-a3" edge="1" parent="1" source="p04-r1-s3" target="p04-r1-s4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#2E7D32;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="Core -&gt; SAP: cargos periodo" vertex="1">
+          <mxGeometry height="80" width="205" x="983" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-a4" edge="1" parent="1" source="p04-r1-s4" target="p04-r1-s5" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#2E7D32;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="SAP factura / recauda / compensa" vertex="1">
+          <mxGeometry height="80" width="205" x="1204" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-a5" edge="1" parent="1" source="p04-r1-s5" target="p04-r1-s6" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#2E7D32;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r1-s6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#2E7D32;dashed=0;" value="Core recibe evento (cartera minima)" vertex="1">
+          <mxGeometry height="80" width="205" x="1425" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#B8860B;strokeWidth=2;dashed=0;" value="" vertex="1">
+          <mxGeometry height="118" width="1650" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B8860B;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;valign=middle;" value="R2 · Q1-2027&lt;br&gt;Migracion RPO" vertex="1">
+          <mxGeometry height="34" width="230" x="55" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-s1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#B8860B;dashed=0;" value="Cliente con financiacion RPO" vertex="1">
+          <mxGeometry height="80" width="205" x="320" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-a1" edge="1" parent="1" source="p04-r2-s1" target="p04-r2-s2" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#B8860B;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-s2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#B8860B;dashed=0;" value="Onboarding digital ampliado" vertex="1">
+          <mxGeometry height="80" width="205" x="541" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-a2" edge="1" parent="1" source="p04-r2-s2" target="p04-r2-s3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#B8860B;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-s3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#B8860B;dashed=0;" value="Motor de originacion (nuevo tipo)" vertex="1">
+          <mxGeometry height="80" width="205" x="762" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-a3" edge="1" parent="1" source="p04-r2-s3" target="p04-r2-s4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#B8860B;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-s4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#B8860B;dashed=0;" value="Core administra RPO" vertex="1">
+          <mxGeometry height="80" width="205" x="983" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-a4" edge="1" parent="1" source="p04-r2-s4" target="p04-r2-s5" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#B8860B;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r2-s5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#B8860B;dashed=0;" value="Cese progresivo en SAP" vertex="1">
+          <mxGeometry height="80" width="205" x="1204" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;dashed=0;" value="" vertex="1">
+          <mxGeometry height="118" width="1650" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;valign=middle;" value="R3 · Q2-2027&lt;br&gt;Migracion de stock" vertex="1">
+          <mxGeometry height="34" width="230" x="55" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-s1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#1565C0;dashed=0;" value="SAP: stock de creditos activos" vertex="1">
+          <mxGeometry height="80" width="205" x="320" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-a1" edge="1" parent="1" source="p04-r3-s1" target="p04-r3-s2" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#1565C0;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-s2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#1565C0;dashed=0;" value="ETL de migracion" vertex="1">
+          <mxGeometry height="80" width="205" x="541" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-a2" edge="1" parent="1" source="p04-r3-s2" target="p04-r3-s3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#1565C0;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-s3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#1565C0;dashed=0;" value="Core Banking (stock migrado)" vertex="1">
+          <mxGeometry height="80" width="205" x="762" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-a3" edge="1" parent="1" source="p04-r3-s3" target="p04-r3-s4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#1565C0;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-s4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#1565C0;dashed=0;" value="Conciliacion de saldos" vertex="1">
+          <mxGeometry height="80" width="205" x="983" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-a4" edge="1" parent="1" source="p04-r3-s4" target="p04-r3-s5" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#1565C0;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r3-s5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#1565C0;dashed=0;" value="Cerebro de Cartera (marca de origen)" vertex="1">
+          <mxGeometry height="80" width="205" x="1204" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDECE7;strokeColor=#DA532C;strokeWidth=2;dashed=0;" value="" vertex="1">
+          <mxGeometry height="118" width="1650" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DA532C;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;valign=middle;" value="R4 · Q3-2027&lt;br&gt;No Gas" vertex="1">
+          <mxGeometry height="34" width="230" x="55" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-s1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#DA532C;dashed=0;" value="Cliente No Gas via Vanti Listo" vertex="1">
+          <mxGeometry height="80" width="205" x="320" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-a1" edge="1" parent="1" source="p04-r4-s1" target="p04-r4-s2" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#DA532C;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-s2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#DA532C;dashed=0;" value="Motor de riesgo (metodologia nueva)" vertex="1">
+          <mxGeometry height="80" width="205" x="541" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-a2" edge="1" parent="1" source="p04-r4-s2" target="p04-r4-s3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#DA532C;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-s3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#DA532C;dashed=0;" value="Core administra credito No Gas" vertex="1">
+          <mxGeometry height="80" width="205" x="762" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-a3" edge="1" parent="1" source="p04-r4-s3" target="p04-r4-s4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#DA532C;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-s4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#DA532C;dashed=0;" value="Portal de Pago No Gas (recaudo)" vertex="1">
+          <mxGeometry height="80" width="205" x="983" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-a4" edge="1" parent="1" source="p04-r4-s4" target="p04-r4-s5" style="edgeStyle=none;html=1;endArrow=block;endFill=1;rounded=0;strokeColor=#DA532C;dashed=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-r4-s5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFFFF;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;strokeColor=#DA532C;dashed=0;" value="Contabilidad agregada a SAP" vertex="1">
+          <mxGeometry height="80" width="205" x="1204" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-note1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;R2 y R3 no son secuenciales entre si:&lt;/b&gt;&lt;br&gt;R2 migra un tipo de producto (RPO) que hoy vive en SAP; R3 migra el stock de creditos activos existentes.&lt;br&gt;Pueden disenarse y construirse en paralelo si ambos consumen el mismo motor de originacion generico de R1." vertex="1">
+          <mxGeometry height="130" width="800" x="40" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-note2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDECE7;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;R4 es el mayor riesgo de cronograma:&lt;/b&gt;&lt;br&gt;La nueva metodologia de riesgo financiero y antifraude es tipicamente el desarrollo de mayor plazo del programa.&lt;br&gt;Debe iniciar su diseno en paralelo desde ahora, no esperar a que R1-R3 terminen." vertex="1">
+          <mxGeometry height="130" width="820" x="870" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="p04-legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;fontSize=11.5;" value="&lt;b&gt;Convencion de Releases (programa R1-R4)&lt;/b&gt;&lt;div style=&quot;margin-top:6px;&quot;&gt;&lt;span style=&quot;color:#2E7D32;font-weight:bold;&quot;&gt;■ R1 · Q4-2026&lt;/span&gt; - Core Banking clientes Gas, minimo impacto a SAP&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#B8860B;font-weight:bold;&quot;&gt;■ R2 · Q1-2027&lt;/span&gt; - Migracion de producto RPO (SAP -&gt; Core)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#1565C0;font-weight:bold;&quot;&gt;■ R3 · Q2-2027&lt;/span&gt; - Migracion de stock de creditos activos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#DA532C;font-weight:bold;&quot;&gt;■ R4 · Q3-2027&lt;/span&gt; - Financiacion No Gas + nueva metodologia de riesgo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#5E35B1;font-weight:bold;&quot;&gt;■ Transversal&lt;/span&gt; - Habilitador construido una vez, reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="40" y="820" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xdbRLxwCm2o_SooG80_C" name="05- Integración SAP y recaudo">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p05-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=16;fontColor=#333333;fontStyle=1;" value="Integracion SAP - detalle por release (R1-R4)" vertex="1">
+          <mxGeometry height="30" width="1150" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=11;fontColor=#666666;" value="SAP conserva facturacion, recaudo y contabilidad agregada en las 4 releases; nunca administra logica de credito." vertex="1">
+          <mxGeometry height="22" width="1200" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-core" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Core Banking (Mambu)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;maestro del credito, R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-sap" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;SAP (SD / IS-U / FI / FI-CA)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;factura, recaudo, contable&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="700" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-dl" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Data Lake / Data Warehouse&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · Q4-2026&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;eventos desde R1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="420" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-cartera" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#2E7D32;strokeWidth=2;dashed=1;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Cerebro de Cartera&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#2E7D32;margin-top:2px;&quot;&gt;R1 · evento minimo&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;marca de origen Core vs SAP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="700" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e1" edge="1" parent="1" source="p05-core" target="p05-sap" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" value="R1: cargos periodicos (cuota, concepto, capital, interes, saldo)">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e2" edge="1" parent="1" source="p05-sap" target="p05-core" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" value="R1: respuesta, errores, recaudos, compensaciones, estado de pago">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e3" edge="1" parent="1" source="p05-core" target="p05-dl" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" value="trazas de credito (R1-R4)">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e4" edge="1" parent="1" source="p05-sap" target="p05-dl" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#2E7D32;" value="trazas de factura y recaudo">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e5" edge="1" parent="1" source="p05-dl" target="p05-cartera" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#5E35B1;dashed=1;" value="saldos, mora, score, historico">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-e6" edge="1" parent="1" source="p05-core" target="p05-cartera" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#5E35B1;dashed=1;" value="marca de origen (R1E; critico en R3-R4)">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-mech1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Mecanismo sugerido (Core -&gt; SAP):&lt;/b&gt;&lt;br&gt;Archivo plano / API / middleware. BPA SAP para carga de conceptos SD/IS-U cuando aplique.&lt;br&gt;&lt;b&gt;Control:&lt;/b&gt; identificadores unicos, acuses, control de duplicados, reprocesos, bitacora." vertex="1">
+          <mxGeometry height="150" width="380" x="950" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-risk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Camino critico del programa:&lt;/b&gt;&lt;br&gt;FICA vs SD, rol de Ayesa/NTT y uso de BPA aun sin cerrar con SAP.&lt;br&gt;Bloquea toda interfaz Core-SAP en las 4 releases, no solo R1.&lt;br&gt;&lt;b&gt;Cierre obligado&lt;/b&gt; antes de iniciar especificacion tecnica de cualquier interfaz." vertex="1">
+          <mxGeometry height="150" width="500" x="140" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-risk2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#DA532C;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Riesgo de convivencia (R1, critico en R3-R4):&lt;/b&gt;&lt;br&gt;La cartera del Core debe convivir con la de SAP en Cerebro de Cartera (marcas, prelacion, conciliacion).&lt;br&gt;Subestimarlo arrastra la migracion de stock (R3) y el control de edad de cartera No Gas (R4)." vertex="1">
+          <mxGeometry height="150" width="470" x="700" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r2r3-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=13;fontColor=#333333;fontStyle=1;" value="Integraciones especificas de R2 y R3" vertex="1">
+          <mxGeometry height="26" width="900" x="140" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r2a" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Financiaciones RPO en SAP (hoy)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;fuente a migrar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="240" x="140" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r2b" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#B8860B;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Motor de originacion generico&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#B8860B;margin-top:2px;&quot;&gt;R2 · Q1-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;nuevo tipo de producto en Core&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="240" x="430" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r2-a1" edge="1" parent="1" source="p05-r2a" target="p05-r2b" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#B8860B;" value="cese progresivo">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r3a" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;Stock de creditos activos (SAP)&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;carga historica&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="240" x="780" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r3b" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate4.element;appType=node;archiType=square;archiDomain=technology;fontColor=#333333;strokeColor=#1565C0;strokeWidth=3;dashed=0;" value="&lt;&lt;Application Component&gt;&gt;&lt;div&gt;ETL de migracion + conciliacion&lt;/div&gt;&lt;div style=&quot;font-size:9px;font-weight:bold;color:#1565C0;margin-top:2px;&quot;&gt;R3 · Q2-2027&lt;/div&gt;&lt;div style=&quot;font-size:8px;font-weight:normal;color:#666666;&quot;&gt;criterios de aceptacion por definir&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="240" x="1070" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-r3-a1" edge="1" parent="1" source="p05-r3a" target="p05-r3b" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=1;rounded=0;strokeColor=#1565C0;" value="migracion por oleadas">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;fontSize=11.5;" value="&lt;b&gt;Convencion de Releases (programa R1-R4)&lt;/b&gt;&lt;div style=&quot;margin-top:6px;&quot;&gt;&lt;span style=&quot;color:#2E7D32;font-weight:bold;&quot;&gt;■ R1 · Q4-2026&lt;/span&gt; - Core Banking clientes Gas, minimo impacto a SAP&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#B8860B;font-weight:bold;&quot;&gt;■ R2 · Q1-2027&lt;/span&gt; - Migracion de producto RPO (SAP -&gt; Core)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#1565C0;font-weight:bold;&quot;&gt;■ R3 · Q2-2027&lt;/span&gt; - Migracion de stock de creditos activos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#DA532C;font-weight:bold;&quot;&gt;■ R4 · Q3-2027&lt;/span&gt; - Financiacion No Gas + nueva metodologia de riesgo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color:#5E35B1;font-weight:bold;&quot;&gt;■ Transversal&lt;/span&gt; - Habilitador construido una vez, reutilizado en R1-R4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="40" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="p05-flujo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;fontSize=10;" value="&lt;b&gt;Principio transversal:&lt;/b&gt; SAP estandar y acotado en las 4 releases - se usa como canal de facturacion/recaudo (SD/IS-U/FI-CA) y como fuente de migracion (R2, R3), sin replicar en ningun momento la logica funcional del credito.&lt;br&gt;Fuente: Evaluacion_Arquitectura_CoreBanking_R1-R4.md, secciones 3, 6 y 7." vertex="1">
+          <mxGeometry height="150" width="1130" x="460" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rw0ad1dBh43yZCbs7fay" name="06- Ownership y Decisiones">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
